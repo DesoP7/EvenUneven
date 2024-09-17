@@ -21,7 +21,7 @@ public class EvenOnevenTeller {
                 telling.put("oneven", telling.get("oneven") + 1);
             }
         }
-
+        //output
         System.out.println("Aantal even getallen: " + telling.get("even"));
         System.out.println("Aantal oneven getallen: " + telling.get("oneven"));
     }
